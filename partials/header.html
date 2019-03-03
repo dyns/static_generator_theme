@@ -1,0 +1,11 @@
+<div id="header">
+    <div class="pure-g">
+        <div class="pure-u-1 pure-u-sm-1-5" id="left_header"><a href="/">{{site_name}}</a></div>
+        <div class="pure-u-1 pure-u-sm-4-5" id="right_header">
+            {% for (tab_name, tab_url) in tabs %}
+            <a href="{{tab_url}}">{{tab_name}}</a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+

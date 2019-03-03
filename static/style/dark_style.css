@@ -1,0 +1,91 @@
+body {
+  background-color: #ecf0f1;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#themeBtn {
+  margin-top: 1em;
+}
+
+.content {
+  line-height: 1.5;
+}
+
+#footer {
+  margin-top: 4em;
+}
+
+#header {
+  font-size: 16pt;
+}
+
+#header a {
+  color: #000000;
+  text-decoration: none;
+}
+
+#header a:visited {
+  color: #000000;
+}
+
+#header a:hover {
+  text-decoration: underline;
+}
+
+#topicList {
+  word-wrap: break-word;
+}
+
+.archiveEntry {
+  margin-bottom: 4em;
+}
+
+#right_header {
+  text-align: right;
+}
+
+#left_header {
+  text-align: left;
+}
+
+@media screen and (max-width: 35.5em) {
+  #right_header {
+    text-align: center;
+  }
+
+  #left_header {
+    text-align: center;
+  }
+}
+#topicSection {
+  text-align: center;
+}
+
+body {
+  background-color: #34495e;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: #bdc3c7;
+  /*Text Color*/
+}
+
+a {
+  color: #2ecc71;
+}
+
+a:visited {
+  color: #16a085;
+}
+
+#header a {
+  color: #bdc3c7;
+  text-decoration: none;
+}
+
+#header a:visited {
+  color: #bdc3c7;
+}
+
+/*# sourceMappingURL=dark_style.css.map */
