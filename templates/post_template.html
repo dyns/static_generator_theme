@@ -10,16 +10,22 @@
             <div class="pure-u-1-24 pure-sm-2-24 pure-u-lg-3-24"></div>
             <div class="pure-u-22-24 pure-sm-20-24 pure-u-lg-18-24">
                 {{header_html}}
-                <button id="themeBtn">Dark</button>
+                {{theme_inverter_button_html}}
                 <div class="content">
                     <h1>{{title}}</h1>
                     {{   content  }}
                     <br />
                     <p>
-                    {{ print_date }}
+                            {{ print_date }}
+                            </p>
+                    <p>
+                            Topics: {{ topics }}
                     </p>
                 </div>
                 {{footer_html}}
+
+                {{disqus_embed}}
+                
             </div>
             <div class="pure-u-1-24 pure-sm-2-24 pure-u-lg-3-24"></div>
         </div>

@@ -1,11 +1,12 @@
 body {
-  background-color: #ecf0f1;
-  margin-top: 1em;
+  background-color: #fff;
   margin-bottom: 1em;
 }
 
 #themeBtn {
   margin-top: 1em;
+  width: 30px;
+  height: 30px;
 }
 
 .content {
@@ -17,7 +18,12 @@ body {
 }
 
 #header {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   font-size: 16pt;
+  background-color: #74b9ff;
 }
 
 #header a {
@@ -49,17 +55,31 @@ body {
   text-align: left;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+  color: #000000;
+}
+
+a {
+  color: #0000EE;
+}
+
+a:visited {
+  color: #551A8B;
+}
+
+#topicSection {
+  text-align: center;
+}
+
 @media screen and (max-width: 35.5em) {
   #right_header {
     text-align: center;
+    margin-top: 0.5em;
   }
 
   #left_header {
     text-align: center;
   }
-}
-#topicSection {
-  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
